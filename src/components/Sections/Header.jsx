@@ -130,7 +130,10 @@ const ImageWrapper = styled.div`
   
 `;
 const Img = styled.img`
-  width:95%;
+  width:95%; 
+  @media (max-width: 960px) {
+    display: none;
+  }
   @media (max-width: 560px) {
     display: none;
   }
@@ -169,7 +172,7 @@ const DotsWrapper = styled.div`
   bottom: 100px;
   z-index: 2;
   @media (max-width: 960px) {
-    right: 100px;
+    display: none;
   }
   @media (max-width: 560px) {
     display: none;
