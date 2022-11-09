@@ -40,12 +40,17 @@ export default function TopNavbar() {
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="galery" spy={true} smooth={true} offset={-80}>
                 Inicio
               </Link>
-            </li>         
+            </li>  
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
                 Servicios
               </Link>
             </li>
+            <li className="semiBold font15 pointer">
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="mision" spy={true} smooth={true} offset={-80}>
+                Mision
+              </Link>
+            </li>       
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
                 Projects

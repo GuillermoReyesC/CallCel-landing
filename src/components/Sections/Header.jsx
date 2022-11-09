@@ -4,7 +4,7 @@ import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
 // Assets
 /* import HeaderImage from "../../assets/img/header-img.png"; */
-import CallCelImg from "../../assets/img/add/teamfakedif.jpg";
+import CallCelImg from "../../assets/img/add/img2.jpg";
 
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
@@ -16,7 +16,7 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">Una nueva forma de gestionar tus clientes</h1>
+          <h1 className="extraBold font40">¿Podemos ayudarte? <br/>Explora nuestros servicios </h1>
           <HeaderP className="font13 semiBold">
           mira los servicios que ofrecemos enfocados en la gestion de clientes. <a href="to=services"><strong><i>Leer más...</i></strong></a>."
           </HeaderP>
@@ -53,9 +53,17 @@ export default function Header() {
 const Wrapper = styled.section`
   padding-top: 80px;
   width: 100%;
-  min-height: 840px;
+
   @media (max-width: 960px) {
     flex-direction: column;
+    padding-top: 0px;
+
+  }
+  @media (max-width: 660px) {
+    flex-direction: column;
+    padding-top: 0px;
+
+    
   }
 `;
 const LeftSide = styled.div`
@@ -88,6 +96,7 @@ const HeaderP = styled.div`
     padding: 15px 0 50px 0;
     text-align: center;
     max-width: 100%;
+    
   }
 `;
 const BtnWrapper = styled.div`
@@ -121,6 +130,7 @@ const ImageWrapper = styled.div`
   
 `;
 const Img = styled.img`
+  width:95%;
   @media (max-width: 560px) {
     display: none;
   }

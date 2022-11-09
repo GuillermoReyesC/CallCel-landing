@@ -10,9 +10,9 @@ import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
 
-export default function WeAre() {
+export default function Mision() {
   return (
-    <Wrapper id="weare">
+    <Wrapper id="mision">
       <div className="lightBg" style={{ padding: "50px 0" }}>
         <div className="container">
           {/* <ClientSlider /> */}
@@ -21,17 +21,19 @@ export default function WeAre() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Quienes Somos</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            <h1 className="font40 extraBold center-lg">Nuestro objetivo como empresa.</h1>
+            <p className="font13 center-lg">
+              Temenos un objetivo, este es crear una red de servicios que conecten de manera global con sus clientes
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Utilizando estrategias de fidelizacion, investigacion de mercado y feedback hacia los clientes
+              <br />
+              reforzando la confianza de ellos hacia ustedes y poder trabajar en  la calidad de su producto o servicio.
             </p>
           </HeaderInfo>
-          <ServiceBoxRow className="flex">
+          <ServiceBoxRow className="flex  center-lg">
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="cup"
+                icon="c"
                 title="Mision"
                 subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
               />
@@ -40,6 +42,23 @@ export default function WeAre() {
               <ServiceBox
                 icon="monitor"
                 title="Vision"
+                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+              />
+            </ServiceBoxWrapper>
+
+          </ServiceBoxRow>
+          <ServiceBoxRow className="flex  center-lg">
+            <ServiceBoxWrapper>
+              <ServiceBox
+                icon="c"
+                title="Valores"
+                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+              />
+            </ServiceBoxWrapper>
+            <ServiceBoxWrapper>
+              <ServiceBox
+                icon="monitor"
+                title="Objetivo"
                 subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
               />
             </ServiceBoxWrapper>
@@ -61,7 +80,7 @@ const ServiceBoxRow = styled.div`
   }
 `;
 const ServiceBoxWrapper = styled.div`
-  width: 20%;
+  width: 40%;
   margin-right: 5%;
   padding: 80px 0;
   @media (max-width: 860px) {

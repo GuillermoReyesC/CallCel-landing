@@ -9,6 +9,7 @@ import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer"
 import Gallery from "../components/Sections/Galery";
 import WeAre from "../components/Sections/WeAre";
+import Mision from "../components/Sections/Mision";
 
 
 
@@ -20,6 +21,7 @@ export default function Landing() {
       <Gallery />
       <Header />
       <Services />
+      <Mision />
       <Projects />
       <WeAre />
       <Blog />
