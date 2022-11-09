@@ -22,6 +22,7 @@ const textOnImage = {
     justifyContent: 'spaceBetween',
     flexDirection: 'row',
     fontSize: '4.5vw',
+    fontSmooth: 'always',
 
     
 }
@@ -38,6 +39,8 @@ const textOnImageMid = {
     justifyContent: 'spaceBetween',
     flexDirection: 'row',
     fontSize: '4.5vw',
+    fontSmooth: 'always',
+
 
     
 }
@@ -55,6 +58,8 @@ const textOnImageEnd = {
     justifyContent: 'spaceBetween',
     flexDirection: 'row',
     fontSize: '4.5vw',
+    fontSmooth: 'always',
+
 
     
 }
@@ -70,19 +75,19 @@ class Gallery extends React.Component {
           <Wrapper id="galery">
               <div>
                 <h2>My Photo Gallery</h2>
-                <Carousel  showThumbs={false} autoPlay interval="5000" transitionTime="4000" infiniteLoop>
+                <Carousel  showThumbs={false} autoPlay interval="4000" transitionTime="3000" infiniteLoop>
                     <div>
                         <img src={CallCelImg} alt="callCenter"/>
                         <p className="extraBold font50" style={textOnImage} > CallCel  <br/> Contact center <br/> te da la <br/> bienvenida</p>
                         
                     </div>
                     <div>
-                        <img src={CallCelImg2} alt="" />
+                        <img src={CallCelImg2} alt="callCenter" />
                         <p className="extraBold font50" style={textOnImageMid} > Una nueva   <br/> forma de gestion <br/>para tus <br/> clientes</p>
                         
                     </div>
                     <div>
-                        <img src={CallCelImg3} alt="" />
+                        <img src={CallCelImg3} alt="callCenter" />
                         <p className="extraBold font50" style={textOnImageEnd} > Desde  <br/> la comodidad <br/> de tu <br/> casa</p>
                         
                     </div>

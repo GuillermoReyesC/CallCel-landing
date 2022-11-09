@@ -27,7 +27,8 @@ export default function Contact() {
             <StyleP className="whiteColor font13">
               © {getCurrentYear()} - <span className="purpleColor font13">UltraDesk Development</span> All Right Reserved
             </StyleP>
-            <div className="menu navigation-menu "></div>
+            <div className="row">
+            <div className="col">
             <ul>
               <li>   
                 <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
@@ -45,7 +46,8 @@ export default function Contact() {
                 </Link>
                 </li>
             </ul>
-            
+            </div>
+            <div className="col">
             <ul>
             <li>   
                 <Link className="whiteColor animate pointer font13" to="pricing" smooth={true} offset={-80}>
@@ -63,6 +65,9 @@ export default function Contact() {
                 </Link>
                 </li>
             </ul>
+            </div>
+            </div>
+            
           </InnerWrapper>
         </div>
       </div>
