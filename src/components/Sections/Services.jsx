@@ -21,11 +21,13 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h1 className="font40 extraBold">Nuestros Servicios</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              Nuestro equipo altamente consolidado le brindará apoyo y servicio en el area que su negocio se desenvuelva
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Realizamos la creacion de servicios a medida. considerando los aspectos de valor y desarrollando nuevas estrategias,
+              <br />
+              nuevas practicas y estudios que favorezcan en el crecimiento de su empresa.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">

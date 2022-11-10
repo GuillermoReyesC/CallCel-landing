@@ -48,6 +48,19 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Servicios
           </Link>
+        </li><li className="semiBold font15 pointer">
+          <Link
+            onClick={() => toggleSidebar(!sidebarOpen)}
+            activeClass="active"
+            className="whiteColor"
+            style={{ padding: "10px 15px" }}
+            to="mision"
+            spy={true}
+            smooth={true}
+            offset={-60}
+          >
+            Mision
+          </Link>
         </li>
         <li className="semiBold font15 pointer">
           <Link
@@ -60,7 +73,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Projects
+            Proyectos
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -69,12 +82,25 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="pricing"
+            to="weare"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Pricing
+            Quienes Somos
+          </Link>
+        </li><li className="semiBold font15 pointer">
+          <Link
+            onClick={() => toggleSidebar(!sidebarOpen)}
+            activeClass="active"
+            className="whiteColor"
+            style={{ padding: "10px 15px" }}
+            to="blog"
+            spy={true}
+            smooth={true}
+            offset={-60}
+          >
+            Nuestros clientes
           </Link>
         </li>
         <li className="semiBold font15 pointer">
