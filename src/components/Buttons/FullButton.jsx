@@ -1,14 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-
+import { Link } from "react-scroll";
 export default function FullButton({ title, action, border }) {
   return (
     <Wrapper 
-      className="animate pointer radius8"
+      className="animate pointer radius6"
       onClick={action ? () => action() : null}
       border={border}
     >
-      {title}
+      <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-80}>
+        {title}        
+      </Link>
+      
     </Wrapper>
   );
 }

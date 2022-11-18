@@ -93,6 +93,9 @@ const HeaderInfo = styled.div`
   @media (max-width: 860px) {
     text-align: center;
   }
+  @media (max-width: 1050px) {
+    text-align: center;
+  }
 `;
 const Advertising = styled.div`
   margin: 80px 0;

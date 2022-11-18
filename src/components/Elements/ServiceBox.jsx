@@ -41,11 +41,13 @@ const Wrapper = styled.div`
   width: 100%;
 `;
 const IconStyle = styled.div`
+  margin: 0 auto;
   @media (max-width: 860px) {
     margin: 0 auto;
   }
 `;
 const TitleStyle = styled.h2`
+  text-align: center;
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
@@ -56,6 +58,7 @@ const TitleStyle = styled.h2`
 `;
 const SubtitleStyle = styled.p`
   width: 100%;
+  ext-align: center;
   max-width: 300px;
   margin: 0 auto;
 `;

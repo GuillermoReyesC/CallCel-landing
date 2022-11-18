@@ -16,12 +16,15 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font40">¿Podemos ayudarte? <br/>Explora nuestros servicios </h1>
+          <h1 className="extraBold font40">¿En que podemos ayudarte? <br/> </h1>
+          <h1 className="extraBold font40"> &nbsp;&nbsp;Explora nuestros servicios </h1>
           <HeaderP className="font13 semiBold">
-          mira los servicios que ofrecemos enfocados en la gestion de clientes. <a href="to=services"><strong><i>Leer más...</i></strong></a>."
+          Mira los servicios que ofrecemos enfocados en la gestion de clientes. 
+          Ofrecemos personalizacion absoluta segun tus requerimientos<br/>
+          <a href="#services"><strong><i>Ver servicios...</i></strong></a>."
           </HeaderP>
           <BtnWrapper >
-            <FullButton title="Empecemos"/>
+            <FullButton title="Empecemos"className="font14 whiteColor" />
           </BtnWrapper>
         </div>
       </LeftSide>
