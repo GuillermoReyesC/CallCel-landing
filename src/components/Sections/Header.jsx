@@ -39,7 +39,7 @@ export default function Header() {
               <p className="font14 whiteColor">
                 <em>aqui deberia ir el  slogan que queremos, las imagenes son aleatoreas hasta  que hayan de un equipo integral.</em>
               </p>
-              <p className="font12 orangeColor textRight" style={{marginTop: '4px'}}>Ralph Waldo Emerson</p>
+              <p className="font12 orangeColor textRight" style={{marginTop: '4px'}}>Alguien importante</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>
